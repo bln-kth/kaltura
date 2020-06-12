@@ -1,3 +1,4 @@
+import sys
 from KalturaClient import *
 from KalturaClient.Plugins.Core import *
 
