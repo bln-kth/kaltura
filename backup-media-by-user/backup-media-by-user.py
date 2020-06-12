@@ -1,6 +1,5 @@
 import sys, csv, datetime, requests, re
 from requests.exceptions import RequestException
-import private
 
 try:
 	user = sys.argv[1]
