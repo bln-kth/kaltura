@@ -2,7 +2,6 @@ import sys
 from KalturaClient import *
 from KalturaClient.Plugins.Core import *
 
-sys.path.append('../')
 import private
 
 config = KalturaConfiguration()
