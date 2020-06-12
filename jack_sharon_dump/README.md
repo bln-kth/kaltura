@@ -21,7 +21,7 @@ Now in detail what is in there. First the key scripts that are needed to generat
 `php dump_image.php`
  
 Then there are two scripts to automatically pull down batches of captions and media files from Kaltura:\
-This scripts needs to change if you run Windows, macOS or Linux
+This scripts needs to change if you run Windows, macOS or Linux\
 `php bulk_download_captions.php`\
 `php bulk_download_media.php`
  
