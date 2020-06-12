@@ -2,6 +2,7 @@ import sys, csv
 from pprint import pprint
 from KalturaClient import *
 from KalturaClient.Plugins.Core import *
+sys.path.append('../')
 import private
 
 try:

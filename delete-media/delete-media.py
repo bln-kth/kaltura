@@ -1,6 +1,7 @@
 from KalturaClient import *
 from KalturaClient.Plugins.Core import *
 import sys, datetime
+sys.path.append('../')
 import private
 
 try:
