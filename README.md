@@ -6,8 +6,8 @@ This is api scripts for Kaltura
 * Nordunet site = `api.kaltura.nordu.net`
 
 ## Create ????
-On *[Zoom Marketplace](https://marketplace.zoom.us/docs/guides/build/jwt-app)* create a JWT App\
-Edit private.py and paste API key and secret from your Zoom JWT App
+At KMC Integration Settings on Kaltura, you can find Administrator Secret & Partner ID\
+Edit private.py and 
 
 ## Test ????
 * Install/Download python:
