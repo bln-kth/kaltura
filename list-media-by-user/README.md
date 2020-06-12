@@ -15,7 +15,3 @@ https://pip.pypa.io/en/stable/installing/
 `pip install KalturaApiClient`
 * Run the script:
 `python list-media-by-user.py username@kaltura.com`
-
-### Info
->This is Open Source and it´s free to use or change.\
-Use this script at **your own risk**. There is **no** support or help included.

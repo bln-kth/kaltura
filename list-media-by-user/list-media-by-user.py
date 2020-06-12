@@ -1,4 +1,5 @@
 import sys, datetime
+sys.path.append('../')
 import private
 
 try:
