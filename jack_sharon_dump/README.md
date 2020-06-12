@@ -28,7 +28,8 @@ This scripts needs to change if you run Windows, macOS or Linux\
 A config file to enter the necessary config values for your instance:\
 `config.ini`
 
-Two text files used to feed the download scripts with the relevant media or captions id values retrieved from the CSV files.
+Two text files used to feed the download scripts with the relevant media or captions id values retrieved from the CSV files.\
+Only one EntryID per line.\
 `ids_for_captions_download.txt`\
 `ids_for_media_download.txt`
 
