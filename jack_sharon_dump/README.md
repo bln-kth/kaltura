@@ -5,6 +5,9 @@ Download entry from Kaltura
 * Public site = `www.kaltura.com`
 * Nordunet site = `api.kaltura.nordu.net`
 
+### To test php
+`php hello_world.php`\
+
 ## To run
 * Install/Download php:
 https://www.php.net/downloads.php
