@@ -17,7 +17,7 @@ https://pip.pypa.io/en/stable/installing/
 * Install deps:
 `pip install KalturaApiClient`
 * Run the script:
-`python delete-media.py entry-id`
+`python kaltura-session.py`
 
 ### Info
 >This is Open Source and it´s free to use or change.\
