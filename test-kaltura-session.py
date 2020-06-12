@@ -13,4 +13,6 @@ ks = client.session.start(
 	private.adminuser_id,
 	KalturaSessionType.ADMIN,
 	private.partner_id)
-print (client.setKs(ks))
+client.setKs(ks)
+
+print (ks)
