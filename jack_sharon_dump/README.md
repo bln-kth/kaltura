@@ -14,7 +14,7 @@ https://www.gnu.org/software/wget/
 ### To test php
 `php hello_world.php`
 
-## Some Info reagrds this scripts
+## Some Info regards this scripts
 Now in detail what is in there. First the key scripts that are needed to generate three export CSV files that can be opened by Excel:\
 `php dump_audio.php`\
 `php dump_video.php`\
