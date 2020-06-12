@@ -5,11 +5,11 @@ This is api scripts for Kaltura
 * Public site = `www.kaltura.com`
 * Nordunet site = `api.kaltura.nordu.net`
 
-## Create ????
+## Fix Kaltura api Integration
 At KMC Integration Settings on Kaltura, you can find Administrator Secret & Partner ID\
-Edit private.py and 
+Edit private.py with Integration Settings and Administrator e-mail
 
-## Test ????
+## Test Kaltura api Integration
 * Install/Download python:
 https://www.python.org/downloads/
 * Install/Download pip
