@@ -1,0 +1,6 @@
+# CSV file to upload media to Kaltura
+# Skip all lines that starts with #
+# Follow entrys are mandatory name,owner-email,tags,description,filename
+# Remove example lines below, before you run the script
+"Min video","user@kaltura.com","Media, Film","The nr 1 Movie","Downloads/BigBuckBunny.mp4"
+"Test","user@kaltura.com","Media, Test","The nr 2 Movie","Downloads/jellyfish-25-mbps.mp4"
