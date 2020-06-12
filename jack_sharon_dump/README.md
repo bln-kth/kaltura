@@ -29,7 +29,7 @@ A config file to enter the necessary config values for your instance:\
 `config.ini`
 
 Two text files used to feed the download scripts with the relevant media or captions id values retrieved from the CSV files.
-`ids_for_captions_download.txt`
+`ids_for_captions_download.txt`\
 `ids_for_media_download.txt`
 
 A blank /output folder  and the Kaltura PHP client API folder in /php5 – just leave it sit there.
