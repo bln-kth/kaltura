@@ -25,18 +25,10 @@ Then there are two scripts to automatically pull down batches of captions and me
 `php bulk_download_media.php`
  
 A config file to enter the necessary config values for your instance:\
-config.ini
+`config.ini`
 
- 
-Two text files used to feed the download scripts with the relevant media or captions id values retrieved from the CSV files
- 
-ids_for_captions_download.txt
-ids_for_media_download.txt
+Two text files used to feed the download scripts with the relevant media or captions id values retrieved from the CSV files.
+`ids_for_captions_download.txt`
+`ids_for_media_download.txt`
 
-
-* Run one of the scripts:\
-`php dump_audio.php`\
-`php dump_video.php`\
-`php dump_image.php`\
-`php bulk_download_captions.php`\
-`php bulk_download_media.php`
+A blank /output folder  and the Kaltura PHP client API folder in /php5 – just leave it sit there.
