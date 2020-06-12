@@ -1,6 +1,4 @@
 import sys, datetime
-sys.path.append('../')
-import private
 
 try:
 	user = sys.argv[1]
@@ -11,6 +9,9 @@ else:
     
 from KalturaClient import *
 from KalturaClient.Plugins.Core import *
+
+sys.path.append('../')
+import private
 
 config = KalturaConfiguration()
 config.serviceUrl = "https://api.kaltura.nordu.net/"
