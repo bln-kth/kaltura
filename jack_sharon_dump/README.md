@@ -14,12 +14,11 @@ https://www.gnu.org/software/wget/
 Now in detail what is in there. First the key scripts that are needed to generate three export CSV files that can be opened by Excel:\
 `php dump_audio.php`\
 `php dump_video.php`\
-`php dump_image.php`\
+`php dump_image.php`
  
-Then there are two scripts to automatically pull down batches of captions and media files from Kaltura
- 
-bulk_download_captions.php
-bulk_download_media.php
+Then there are two scripts to automatically pull down batches of captions and media files from Kaltura:
+`php bulk_download_captions.php`\
+`php bulk_download_media.php`
  
 A config file to enter the necessary config values for your instance
  
