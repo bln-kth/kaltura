@@ -1,5 +1,5 @@
 # kaltura-jack_sharon_dump
-Download entry from Kaltura
+Download entry from Kaltura, you need to run and edit som scripts. See below.
 
 ### api url
 * Public site = `www.kaltura.com`
