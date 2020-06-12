@@ -5,7 +5,7 @@ Download entry from Kaltura, you need to run and edit som scripts. See below.
 * Public site = `www.kaltura.com`
 * Nordunet site = `api.kaltura.nordu.net`
 
-## To Install/Download
+### To Install/Download
 * Install/Download php:
 https://www.php.net/downloads.php
 * Install/Download wget
@@ -14,8 +14,7 @@ https://www.gnu.org/software/wget/
 ### To test php
 `php hello_world.php`
 
-## Info
-
+## Some Info reagrds this scripts
 Now in detail what is in there. First the key scripts that are needed to generate three export CSV files that can be opened by Excel:\
 `php dump_audio.php`\
 `php dump_video.php`\
