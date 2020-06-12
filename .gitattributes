@@ -1,2 +1,3 @@
-python
-php
+*.pyhton text
+*.php text
+
