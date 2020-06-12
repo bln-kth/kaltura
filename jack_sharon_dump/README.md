@@ -14,13 +14,14 @@ https://www.gnu.org/software/wget/
 ### To test php
 `php hello_world.php`
 
-## Some Info regards this scripts
+## Some info
 Now in detail what is in there. First the key scripts that are needed to generate three export CSV files that can be opened by Excel:\
 `php dump_audio.php`\
 `php dump_video.php`\
 `php dump_image.php`
  
 Then there are two scripts to automatically pull down batches of captions and media files from Kaltura:\
+This scripts needs to change if you run Windows, macOS or Linux
 `php bulk_download_captions.php`\
 `php bulk_download_media.php`
  
