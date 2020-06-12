@@ -16,7 +16,3 @@ https://www.gnu.org/software/wget/
 `php dump_image.php`\
 `php bulk_download_captions.php`\
 `php bulk_download_media.php`
-
-### Info
->This is Open Source and it´s free to use or change.\
-Use this script at **your own risk**. There is **no** support or help included.

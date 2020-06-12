@@ -12,6 +12,9 @@ else:
 from KalturaClient import *
 from KalturaClient.Plugins.Core import *
 
+sys.path.append('../')
+import private
+
 config = KalturaConfiguration()
 config.serviceUrl = "https://api.kaltura.nordu.net/"
 client = KalturaClient(config)
