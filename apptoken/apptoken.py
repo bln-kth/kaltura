@@ -2,6 +2,8 @@ import json,time,hashlib,sys
 from datetime import datetime,timedelta
 from KalturaClient import *
 from KalturaClient.Plugins.Core import *
+sys.path.append('../')
+import private
 
 def add_token(desc,priv):
     appToken = KalturaAppToken()
@@ -33,9 +35,6 @@ def delete_apptoken(id):
     delete=client.appToken.delete(id)
 
 # SESSION CONFIG
-sys.path.append('../')
-import private
-
 config = KalturaConfiguration()
 config.serviceUrl = "https://api.kaltura.nordu.net/"
 client = KalturaClient(config)
