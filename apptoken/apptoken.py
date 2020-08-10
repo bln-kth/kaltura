@@ -39,10 +39,10 @@ config = KalturaConfiguration()
 config.serviceUrl = "https://api.kaltura.nordu.net/"
 client = KalturaClient(config)
 ks = client.session.start(
-    secret,
-	adminuser_id,
+    private.secret,
+	private.adminuser_id,
 	KalturaSessionType.ADMIN,
-	partner_id)
+	private.partner_id)
 client.setKs(ks)
 
 # LIST APPTOKENS
