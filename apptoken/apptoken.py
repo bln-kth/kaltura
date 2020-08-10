@@ -35,11 +35,12 @@ def delete_apptoken(id):
 # SESSION CONFIG
 sys.path.append('../')
 import private
+
 config = KalturaConfiguration()
 config.serviceUrl = "https://api.kaltura.nordu.net/"
 client = KalturaClient(config)
 ks = client.session.start(
-	secret,
+    secret,
 	adminuser_id,
 	KalturaSessionType.ADMIN,
 	partner_id)
