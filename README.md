@@ -23,7 +23,7 @@ https://pip.pypa.io/en/stable/installing/
 * Create a App Token, see [apptoken](apptoken/)
 * Edit app-token.py with App Tokens and Administrator e-mail
 * Test App Token Session:
-`python test-kaltura-session.py`
+`python test-app-token.py`
 
 ### Info
 >This is Open Source and it´s free to use or change.\
