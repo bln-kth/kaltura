@@ -40,26 +40,22 @@ def write_csv_file(write_body,filename):
         write.writerows(write_body)
 
 # SESSION CONFIG APPTOKEN
-partner_id="your partner ID"
-config = KalturaConfiguration(partner_id)
+config = KalturaConfiguration(apptoken.partner_id)
 config.serviceUrl = "https://api.kaltura.nordu.net/"
 client = KalturaClient(config)
 
-id="apptokenid"
-token="apptoken"
-userId=""
-
 # GENERATE SESSION
-
-widgetId = "_"+str(partner_id)
+widgetId = "_"+str(apptoken.partner_id)
 expiry = 86400
 result = client.session.startWidgetSession(widgetId, expiry)
 client.setKs(result.ks)
-tokenHash = hashlib.sha256(result.ks.encode('ascii')+token.encode('ascii')).hexdigest()
+
+ATHash = hashlib.sha256(result.ks.encode('ascii')+apptoken.tokenHash.encode('ascii')).hexdigest()
 type = KalturaSessionType.ADMIN 
 
-result = client.appToken.startSession(id, tokenHash, userId, type, expiry)
+result = client.appToken.startSession(apptoken.tokenid, ATHash, apptoken.user_id, type, expiry)
 client.setKs(result.ks)
+
 
 result=get_uiconf("1,8")
 write_csv_file(result,"players.csv")
