@@ -21,6 +21,7 @@ https://pip.pypa.io/en/stable/installing/
 
 ## Optional Creat App Token
 * Create a App Token, see https://github.com/bln-kth/kaltura/tree/master/apptoken
+[test](apptoken/README.md)
 * Edit the file with App Tokens and Administrator e-mail
 * Test App Token Session 
 
