@@ -1,3 +1,3 @@
 id = ''
 tokenHash = ''
-userId = ''
+adminuser_id = ''
