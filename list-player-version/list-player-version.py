@@ -3,6 +3,8 @@ from datetime import datetime,timedelta
 from KalturaClient import *
 from KalturaClient.Plugins.Core import *
 from csv import writer,QUOTE_MINIMAL,reader
+sys.path.append('../')
+import apptoken
 
 
 def get_uiconf(uiconftype):
