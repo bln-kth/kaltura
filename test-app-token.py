@@ -1,4 +1,4 @@
-import sys,hashlib
+import time,sys,hashlib
 from KalturaClient import *
 from KalturaClient.Plugins.Core import *
 
@@ -13,10 +13,6 @@ partner_id="your partner ID"
 config = KalturaConfiguration(apptoken.partner_id)
 config.serviceUrl = "https://api.kaltura.nordu.net/"
 client = KalturaClient(config)
-
-id="apptokenid"
-token="apptoken"
-userId=""
 
 # GENERATE SESSION
 
