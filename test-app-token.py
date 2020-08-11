@@ -9,7 +9,6 @@ print(apptoken.tokenid)
 print(apptoken.tokenHash)
 print(apptoken.adminuser_id)
 
-partner_id="your partner ID"
 config = KalturaConfiguration(apptoken.partner_id)
 config.serviceUrl = "https://api.kaltura.nordu.net/"
 client = KalturaClient(config)
