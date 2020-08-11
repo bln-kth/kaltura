@@ -1,4 +1,4 @@
-import sys
+import sys,hashlib
 from KalturaClient import *
 from KalturaClient.Plugins.Core import *
 
