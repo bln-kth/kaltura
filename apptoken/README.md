@@ -1,6 +1,11 @@
-# kaltura-list-media-by-user
-Creates file list-media-by-user.txt with "media id, Created at, Entry name, Download URL"\
-*Tips: With this script and kaltura-delete-media script, you can make a script that deletes all media how belongs to a specific user.*
+# apptoken
+read comments in code for usage.
+basicly:
+* Add KMC role
+* list roles with API to get roleid
+* add apptoken with a description and the roleid
+* list apptokens to get tokenid and token
+* use tokenid and token to make API calls
 
 ### api url
 * Public site = `www.kaltura.com`
@@ -13,5 +18,5 @@ https://www.python.org/downloads/
 https://pip.pypa.io/en/stable/installing/
 * Install deps:
 `pip install KalturaApiClient`
-* Run the script:
-`python list-media-by-user.py username@kaltura.com`
+
+## Read [https://developer.kaltura.com/api-docs/VPaaS-API-Getting-Started/application-tokens.html) on how to create apptoken
