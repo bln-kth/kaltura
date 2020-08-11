@@ -19,6 +19,6 @@ print (result.ks)
 ATHash = hashlib.sha256(result.ks.encode('ascii')+apptoken.tokenHash.encode('ascii')).hexdigest()
 type = KalturaSessionType.ADMIN 
 
-result = client.appToken.startSession(apptoken.tokenid, ATHash, apptoken.adminuser_id, type, expiry)
+result = client.appToken.startSession(apptoken.tokenid, ATHash, apptoken.user_id, type, expiry)
 client.setKs(result.ks)
 print (result.ks)

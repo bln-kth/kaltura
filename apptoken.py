@@ -1,4 +1,4 @@
 partner_id = ''
 tokenid = ''
 tokenHash = ''
-adminuser_id = ''
+user_id = ''
