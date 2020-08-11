@@ -1,6 +1,6 @@
 # list-player-version
-Creates file list-media-by-user.txt with "media id, Created at, Entry name, Download URL"\
-*Tips: With this script and kaltura-delete-media script, you can make a script that deletes all media how belongs to a specific user.*
+Uses App Tokens to run. You need to creat this first.\
+Creates file players.csv
 
 ### api url
 * Public site = `www.kaltura.com`
@@ -14,5 +14,4 @@ https://pip.pypa.io/en/stable/installing/
 * Install deps:
 `pip install KalturaApiClient`
 * Run the script:
-`python list-media-by-user.py username@kaltura.com`
-
+`python list-player-version.py`
