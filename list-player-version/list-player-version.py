@@ -6,7 +6,6 @@ from csv import writer,QUOTE_MINIMAL,reader
 sys.path.append('../')
 import apptoken
 
-
 def get_uiconf(uiconftype):
     filter = KalturaUiConfFilter()
     filter.objTypeIn = uiconftype
