@@ -20,10 +20,10 @@ https://pip.pypa.io/en/stable/installing/
 `python test-kaltura-session.py`
 
 ## Optional Creat App Token
-* Create a App Token, see https://github.com/bln-kth/kaltura/tree/master/apptoken
-[apptoken](apptoken/)
-* Edit the file with App Tokens and Administrator e-mail
-* Test App Token Session 
+* Create a App Token, see [apptoken](apptoken/)
+* Edit app-token.py with App Tokens and Administrator e-mail
+* Test App Token Session:
+`python test-kaltura-session.py`
 
 ### Info
 >This is Open Source and it´s free to use or change.\
