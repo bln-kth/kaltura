@@ -19,6 +19,9 @@ https://pip.pypa.io/en/stable/installing/
 * Run the script:
 `python test-kaltura-session.py`
 
+## Optional Creat App Token
+Creat a App Token and edit the file
+
 ### Info
 >This is Open Source and it´s free to use or change.\
 Use all this scripts at **your own risk**. There is **no** support or help included.
