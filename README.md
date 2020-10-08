@@ -1,5 +1,5 @@
 # kaltura
-This is api scripts for Kaltura
+This is api scripts for Kaltura, using Python 3.6 (or later) with pip3
 
 ### api url
 * Public site = `www.kaltura.com`
